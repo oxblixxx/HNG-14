@@ -96,4 +96,14 @@ sudo certbot --nginx -d api.mustaphaops.online
 sudo systemctl restart nginx
 ```
 
-### 1
+### 10. Delete unused port
+
+Delete unused port, which is a security measure.
+```sh
+sudo ufw status numbered
+```
+Locate the corresponding number for `3000`.
+
+```sh
+sudo ufw delete <number>
+```
