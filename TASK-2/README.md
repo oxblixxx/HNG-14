@@ -78,7 +78,7 @@ Create a new configuration file:
 sudo nano api.mustaphaops.online
 ```
 
-- Create [api.mustaphaops.online](TASK-2/api.mustaphaops.online)
+- Create [api.mustaphaops.online](./TASK-2/api.mustaphaops.online)
 
 Enable the site and restart Nginx:
 
